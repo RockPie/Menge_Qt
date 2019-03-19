@@ -13,5 +13,342 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\PluginEngine">
+      <UniqueIdentifier>{16a05233-4e0f-42bb-81fc-cfd9007e7469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Runtime">
+      <UniqueIdentifier>{f9a3424c-4ad3-4afd-8ffd-70fc8db1090e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Viewer">
+      <UniqueIdentifier>{f25c1388-5e8a-480a-ac57-d4f286ee2fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SceneGraph">
+      <UniqueIdentifier>{22b5c75f-4193-432f-8b9e-eaa57481d051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SceneGraph">
+      <UniqueIdentifier>{800825d4-8431-4f12-ac6a-9c215839fbfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Viewer">
+      <UniqueIdentifier>{4e4c8efb-ed9d-4058-9021-5ad2531c9e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime">
+      <UniqueIdentifier>{79219ea4-665c-49a9-94d2-ab25caac85e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\PluginEngine">
+      <UniqueIdentifier>{58f5bb1b-5d81-40c1-a167-2482482d098b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\AgentContext">
+      <UniqueIdentifier>{92a5a1d5-9cc8-4e35-852f-e4dfadcc1481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\GoalRenderer">
+      <UniqueIdentifier>{de61d37e-c65e-48f6-90cd-cbd5e93ffdfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\VCContext">
+      <UniqueIdentifier>{fabe942b-4108-40c4-a256-5fea9ce4159e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Runtime\VisAgent">
+      <UniqueIdentifier>{94dc75e6-d75d-412f-bc55-fa94b35a5968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Runtime\AgentContext">
+      <UniqueIdentifier>{b7196d1d-e12a-4b20-8c5d-64c2accae947}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Runtime\GoalRenderer">
+      <UniqueIdentifier>{67d223dd-c3f6-42d9-ab04-62f22b27633d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Runtime\VisAgent">
+      <UniqueIdentifier>{06d9a99a-7772-4f73-974d-e60b3f52dfbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Runtime\VCContext">
+      <UniqueIdentifier>{c058879b-daf4-477f-896f-8416743c25ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\VisConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\Context.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\ContextSwitcher.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLCamera.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLContextManager.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLGroundPlane.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLLight.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLNode.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLScene.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\graphCommon.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\image.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\ManagedData.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\Select.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\shapes.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\System.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\TextWriter.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\Transform.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\XformMatrix.h">
+      <Filter>Header Files\SceneGraph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\GLViewer.h">
+      <Filter>Header Files\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\NullViewer.h">
+      <Filter>Header Files\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\Profiler.h">
+      <Filter>Header Files\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\ScreenGrab.h">
+      <Filter>Header Files\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\ViewConfig.h">
+      <Filter>Header Files\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\Watermark.h">
+      <Filter>Header Files\Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\EventInjectContext.h">
+      <Filter>Header Files\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\MengeContext.h">
+      <Filter>Header Files\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\SimSystem.h">
+      <Filter>Header Files\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\StateContext.h">
+      <Filter>Header Files\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VisElementDatabase.h">
+      <Filter>Header Files\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VisElementException.h">
+      <Filter>Header Files\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VisObstacle.h">
+      <Filter>Header Files\Runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\PluginEngine\VisPluginEngine.h">
+      <Filter>Header Files\PluginEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\AgentContext\PedVOAgentContext.h">
+      <Filter>Header Files\Runtime\AgentContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\AgentContext\ORCATypeAgentContext.h">
+      <Filter>Header Files\Runtime\AgentContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\AgentContext\ORCAAgentContext.h">
+      <Filter>Header Files\Runtime\AgentContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\AgentContext\BaseAgentContext.h">
+      <Filter>Header Files\Runtime\AgentContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\AgentContext\AgentContextDatabase.h">
+      <Filter>Header Files\Runtime\AgentContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\AABBGoalRenderer.h">
+      <Filter>Header Files\Runtime\GoalRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\CircleGoalRenderer.h">
+      <Filter>Header Files\Runtime\GoalRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\GoalRenderer.h">
+      <Filter>Header Files\Runtime\GoalRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\GoalRendererDatabase.h">
+      <Filter>Header Files\Runtime\GoalRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\OBBGoalRenderer.h">
+      <Filter>Header Files\Runtime\GoalRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\PointGoalRenderer.h">
+      <Filter>Header Files\Runtime\GoalRenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VisAgent\VisAgent.h">
+      <Filter>Header Files\Runtime\VisAgent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VisAgent\VisAgentDatabase.h">
+      <Filter>Header Files\Runtime\VisAgent</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\NavMeshVCContext.h">
+      <Filter>Header Files\Runtime\VCContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\RoadMapVCContext.h">
+      <Filter>Header Files\Runtime\VCContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\VCConstContext.h">
+      <Filter>Header Files\Runtime\VCContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\VCGoalContext.h">
+      <Filter>Header Files\Runtime\VCContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\VecFieldVCContext.h">
+      <Filter>Header Files\Runtime\VCContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\VelCompContext.h">
+      <Filter>Header Files\Runtime\VCContext</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\VelCompContextDatabase.h">
+      <Filter>Header Files\Runtime\VCContext</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\Context.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\ContextSwitcher.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLCamera.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLContextManager.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLGroundPlane.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLLight.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLNode.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\GLScene.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\image.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\Select.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\shapes.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\TextWriter.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\Transform.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\SceneGraph\XformMatrix.cpp">
+      <Filter>Source Files\SceneGraph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\GLViewer.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\NullViewer.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\Profiler.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\ScreenGrab.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\ViewConfig.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Viewer\Watermark.cpp">
+      <Filter>Source Files\Viewer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\AgentContextDatabase.cpp">
+      <Filter>Source Files\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\EventInjectContext.cpp">
+      <Filter>Source Files\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\MengeContext.cpp">
+      <Filter>Source Files\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\SimSystem.cpp">
+      <Filter>Source Files\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\StateContext.cpp">
+      <Filter>Source Files\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VisObstacle.cpp">
+      <Filter>Source Files\Runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\PluginEngine\VisPluginEngine.cpp">
+      <Filter>Source Files\PluginEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\AgentContext\BaseAgentContext.cpp">
+      <Filter>Source Files\Runtime\AgentContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\AABBGoalRenderer.cpp">
+      <Filter>Source Files\Runtime\GoalRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\CircleGoalRenderer.cpp">
+      <Filter>Source Files\Runtime\GoalRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\GoalRenderer.cpp">
+      <Filter>Source Files\Runtime\GoalRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\GoalRendererDatabase.cpp">
+      <Filter>Source Files\Runtime\GoalRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\OBBGoalRenderer.cpp">
+      <Filter>Source Files\Runtime\GoalRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\GoalRenderer\PointGoalRenderer.cpp">
+      <Filter>Source Files\Runtime\GoalRenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VisAgent\VisAgent.cpp">
+      <Filter>Source Files\Runtime\VisAgent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VisAgent\VisAgentDatabase.cpp">
+      <Filter>Source Files\Runtime\VisAgent</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\NavMeshVCContext.cpp">
+      <Filter>Source Files\Runtime\VCContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\RoadMapVCContext.cpp">
+      <Filter>Source Files\Runtime\VCContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\VCConstContext.cpp">
+      <Filter>Source Files\Runtime\VCContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\VCGoalContext.cpp">
+      <Filter>Source Files\Runtime\VCContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\VecFieldVCContext.cpp">
+      <Filter>Source Files\Runtime\VCContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\VelCompContext.cpp">
+      <Filter>Source Files\Runtime\VCContext</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeVis\Runtime\VCContext\VelCompContextDatabase.cpp">
+      <Filter>Source Files\Runtime\VCContext</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
