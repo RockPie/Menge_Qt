@@ -115,6 +115,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\tinyxml\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\tinyxml\tinystr.h" />
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\tinyxml\tinyxml.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
