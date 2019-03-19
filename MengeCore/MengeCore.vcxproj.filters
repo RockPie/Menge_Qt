@@ -61,6 +61,90 @@
     <Filter Include="Header Files\resources">
       <UniqueIdentifier>{5d4840c3-627a-4f4f-90c3-fdd3e57b60dc}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Agents\AgentGenerators">
+      <UniqueIdentifier>{e5b6c6e0-d8e5-441d-8472-35ccf2d8e0cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agents\Elevations">
+      <UniqueIdentifier>{0e7f0ddb-7cfa-4c96-b79d-556e2b766971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agents\Events">
+      <UniqueIdentifier>{545f3c2d-a48f-454d-b7c5-a1d0040e2995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agents\ObstacleSets">
+      <UniqueIdentifier>{f68be613-f548-4843-acc8-a25810595cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agents\ProfileSelectors">
+      <UniqueIdentifier>{bbd08f74-aa71-405c-955f-ae5c7e314ac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agents\SpatialQueries">
+      <UniqueIdentifier>{3c8eba85-4984-4034-a0fe-328ab1f083a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Agents\StateSelectors">
+      <UniqueIdentifier>{7c734910-f375-428f-a46b-ee71b751347a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agents\AgentGenerators">
+      <UniqueIdentifier>{2c66a42d-024b-49c2-aa1d-395a4cbd12b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agents\Elevations">
+      <UniqueIdentifier>{8a099f35-9579-405e-bdcc-077d2056c9cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agents\Events">
+      <UniqueIdentifier>{754d6bd0-450b-4827-bc38-de1b6f7e6c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agents\ObstacleSets">
+      <UniqueIdentifier>{d54088ef-e314-48a1-af4b-9e3118002084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agents\ProfileSelectors">
+      <UniqueIdentifier>{8271f621-1021-44b2-9f65-c221fa660dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agents\SpatialQueries">
+      <UniqueIdentifier>{4f5ce8ac-ea80-4c93-ba3f-a1d2f2ec6bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Agents\State Selectors">
+      <UniqueIdentifier>{50b74032-db1b-4b09-8c2d-4cf52a756e74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BFSM\Actions">
+      <UniqueIdentifier>{fd4518d9-ee74-4d43-a92a-bcc3c0029113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BFSM\Goals">
+      <UniqueIdentifier>{d9098eee-2b58-4fe0-95e8-864064e3212b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BFSM\GoalSelectors">
+      <UniqueIdentifier>{af120730-99f9-4587-874f-4c439cf4e539}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BFSM\Tasks">
+      <UniqueIdentifier>{313cc8a4-cb87-4e10-8ee9-9200502c2c53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BFSM\Transitions">
+      <UniqueIdentifier>{5455c386-0410-4e10-ab7c-7df5aab07259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BFSM\VelComponents">
+      <UniqueIdentifier>{4c91e606-6ad1-4640-8736-e75f4283561f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\BFSM\VelModifiers">
+      <UniqueIdentifier>{e93c1204-4457-4a2f-b7d6-fbbadfc9b344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BFSM\Actions">
+      <UniqueIdentifier>{b544497c-e100-40ad-b2eb-e83ae309a1cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BFSM\Goals">
+      <UniqueIdentifier>{d3b064e6-3a6b-4ca6-b2af-542e59faa414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BFSM\Tasks">
+      <UniqueIdentifier>{65ef9b13-77f9-46f8-8918-13c4a6c8c0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BFSM\GoalSelectors">
+      <UniqueIdentifier>{7559427b-639d-4d3e-96bb-dcf86f6b2228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BFSM\Transitions">
+      <UniqueIdentifier>{3a2f028f-e4be-4dcd-aca5-c4b0b7963da0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BFSM\VelModifiers">
+      <UniqueIdentifier>{f49b36a0-8a89-4042-8b11-40704bc30ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\BFSM\VelComponents">
+      <UniqueIdentifier>{48e4fe55-1eba-4b8c-b7dc-9252825e7d8b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentInitializer.cpp">
@@ -251,6 +335,315 @@
     </ClCompile>
     <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\resources\WayPortal.cpp">
       <Filter>Source Files\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Core.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\menge_c_api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\ProjectSpec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\AgentGenerator.cpp">
+      <Filter>Source Files\Agents\AgentGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\AgentGeneratorDatabase.cpp">
+      <Filter>Source Files\Agents\AgentGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\AgentGeneratorFactory.cpp">
+      <Filter>Source Files\Agents\AgentGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\ExplicitAgentGenerator.cpp">
+      <Filter>Source Files\Agents\AgentGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\HexLatticeGenerator.cpp">
+      <Filter>Source Files\Agents\AgentGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\NavMeshAgentGenerator.cpp">
+      <Filter>Source Files\Agents\AgentGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\RectGridGenerator.cpp">
+      <Filter>Source Files\Agents\AgentGenerators</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Elevations\ElevationDatabase.cpp">
+      <Filter>Source Files\Agents\Elevations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Elevations\ElevationFlat.cpp">
+      <Filter>Source Files\Agents\Elevations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Elevations\ElevationNavMesh.cpp">
+      <Filter>Source Files\Agents\Elevations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\AgentEventEffect.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\change_state_effect.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\Event.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventEffectAgentState.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventEffectDB.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventResponse.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventSystem.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTarget.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTargetDB.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTargetFactory.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTrigger.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTriggerDB.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTriggerExternal.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTriggerFactory.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\state_population_trigger.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\StateEvtTrigger.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\StateMemberTarget.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\TargetAgentById.cpp">
+      <Filter>Source Files\Agents\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\StateSelectors\ConstStateSelector.cpp">
+      <Filter>Source Files\Agents\State Selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\StateSelectors\StateSelector.cpp">
+      <Filter>Source Files\Agents\State Selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\StateSelectors\StateSelectorDatabase.cpp">
+      <Filter>Source Files\Agents\State Selectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\AgentKDTree.cpp">
+      <Filter>Source Files\Agents\SpatialQueries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\KNearestQuery.cpp">
+      <Filter>Source Files\Agents\SpatialQueries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\ObstacleKDTree.cpp">
+      <Filter>Source Files\Agents\SpatialQueries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\SpatialQuery.cpp">
+      <Filter>Source Files\Agents\SpatialQueries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\SpatialQueryDatabase.cpp">
+      <Filter>Source Files\Agents\SpatialQueries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\SpatialQueryFactory.cpp">
+      <Filter>Source Files\Agents\SpatialQueries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\SpatialQueryNavMesh.cpp">
+      <Filter>Source Files\Agents\SpatialQueries</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ProfileSelectors\ConstProfileSelector.cpp">
+      <Filter>Source Files\Agents\ProfileSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ProfileSelectors\profile_selector_random.cpp">
+      <Filter>Source Files\Agents\ProfileSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ProfileSelectors\profile_selector_weighted.cpp">
+      <Filter>Source Files\Agents\ProfileSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ProfileSelectors\ProfileSelector.cpp">
+      <Filter>Source Files\Agents\ProfileSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ProfileSelectors\ProfileSelectorDatabase.cpp">
+      <Filter>Source Files\Agents\ProfileSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\ExplicitObstacleSet.cpp">
+      <Filter>Source Files\Agents\ObstacleSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\ListObstacleSet.cpp">
+      <Filter>Source Files\Agents\ObstacleSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\NavMeshObstacleSet.cpp">
+      <Filter>Source Files\Agents\ObstacleSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\ObstacleSet.cpp">
+      <Filter>Source Files\Agents\ObstacleSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\ObstacleSetDatabase.cpp">
+      <Filter>Source Files\Agents\ObstacleSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\ObstacleSetFactory.cpp">
+      <Filter>Source Files\Agents\ObstacleSets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Actions\Action.cpp">
+      <Filter>Source Files\BFSM\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Actions\ActionDatabase.cpp">
+      <Filter>Source Files\BFSM\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Actions\ActionFactory.cpp">
+      <Filter>Source Files\BFSM\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Actions\ObstacleAction.cpp">
+      <Filter>Source Files\BFSM\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Actions\TeleportAction.cpp">
+      <Filter>Source Files\BFSM\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\Goal.cpp">
+      <Filter>Source Files\BFSM\Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalAABB.cpp">
+      <Filter>Source Files\BFSM\Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalCircle.cpp">
+      <Filter>Source Files\BFSM\Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalDatabase.cpp">
+      <Filter>Source Files\BFSM\Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalFactory.cpp">
+      <Filter>Source Files\BFSM\Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalOBB.cpp">
+      <Filter>Source Files\BFSM\Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalPoint.cpp">
+      <Filter>Source Files\BFSM\Goals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelector.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorDatabase.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorExplicit.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorFactory.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorFarthest.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorFarthestNM.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorIdentity.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorMirror.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorNearest.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorNearestNM.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorOffset.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorRandom.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorSet.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorShared.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorWeighted.cpp">
+      <Filter>Source Files\BFSM\GoalSelectors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityModifiers\VelModContext.cpp">
+      <Filter>Source Files\BFSM\VelModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityModifiers\VelModifier.cpp">
+      <Filter>Source Files\BFSM\VelModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityModifiers\VelModifierDatabase.cpp">
+      <Filter>Source Files\BFSM\VelModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityModifiers\VelModifierScale.cpp">
+      <Filter>Source Files\BFSM\VelModifiers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelCompConst.cpp">
+      <Filter>Source Files\BFSM\VelComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelCompGoal.cpp">
+      <Filter>Source Files\BFSM\VelComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelCompNavMesh.cpp">
+      <Filter>Source Files\BFSM\VelComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelComponent.cpp">
+      <Filter>Source Files\BFSM\VelComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelComponentDatabase.cpp">
+      <Filter>Source Files\BFSM\VelComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelCompRoadMap.cpp">
+      <Filter>Source Files\BFSM\VelComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelCompVF.cpp">
+      <Filter>Source Files\BFSM\VelComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\CondBoolean.cpp">
+      <Filter>Source Files\BFSM\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\CondGoal.cpp">
+      <Filter>Source Files\BFSM\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\ConditionDatabase.cpp">
+      <Filter>Source Files\BFSM\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\CondSpace.cpp">
+      <Filter>Source Files\BFSM\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\CondTimer.cpp">
+      <Filter>Source Files\BFSM\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\Target.cpp">
+      <Filter>Source Files\BFSM\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\TargetDatabase.cpp">
+      <Filter>Source Files\BFSM\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\TargetProb.cpp">
+      <Filter>Source Files\BFSM\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\TargetReturn.cpp">
+      <Filter>Source Files\BFSM\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\Transition.cpp">
+      <Filter>Source Files\BFSM\Transitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Tasks\NavMeshLocalizerTask.cpp">
+      <Filter>Source Files\BFSM\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Tasks\Task.cpp">
+      <Filter>Source Files\BFSM\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Tasks\TaskDatabase.cpp">
+      <Filter>Source Files\BFSM\Tasks</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -475,6 +868,390 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\resources\ResourceManager.h">
       <Filter>Header Files\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Core.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\CoreConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\data_set_selector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\menge_c_api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\mengeCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\MengeException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\ProjectSpec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\AgentGenerator.h">
+      <Filter>Header Files\Agents\AgentGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\AgentGeneratorDatabase.h">
+      <Filter>Header Files\Agents\AgentGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\AgentGeneratorFactory.h">
+      <Filter>Header Files\Agents\AgentGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\ExplicitAgentGenerator.h">
+      <Filter>Header Files\Agents\AgentGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\HexLatticeGenerator.h">
+      <Filter>Header Files\Agents\AgentGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\NavMeshAgentGenerator.h">
+      <Filter>Header Files\Agents\AgentGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\AgentGenerators\RectGridGenerator.h">
+      <Filter>Header Files\Agents\AgentGenerators</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Elevations\Elevation.h">
+      <Filter>Header Files\Agents\Elevations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Elevations\ElevationDatabase.h">
+      <Filter>Header Files\Agents\Elevations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Elevations\ElevationFactory.h">
+      <Filter>Header Files\Agents\Elevations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Elevations\ElevationFlat.h">
+      <Filter>Header Files\Agents\Elevations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Elevations\ElevationNavMesh.h">
+      <Filter>Header Files\Agents\Elevations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\AgentEventEffect.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\AgentEventTarget.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\AgentPropertyEffect.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\change_state_effect.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\Event.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventEffect.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventEffectAgentState.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventEffectDB.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventEffectFactory.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventException.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventResponse.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventSystem.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTarget.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTargetDB.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTargetFactory.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTrigger.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTriggerDB.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTriggerExternal.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\EventTriggerFactory.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\state_population_trigger.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\StateEvtTrigger.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\StateMemberTarget.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\Events\TargetAgentById.h">
+      <Filter>Header Files\Agents\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\StateSelectors\ConstStateSelector.h">
+      <Filter>Header Files\Agents\StateSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\StateSelectors\StateSelector.h">
+      <Filter>Header Files\Agents\StateSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\StateSelectors\StateSelectorDatabase.h">
+      <Filter>Header Files\Agents\StateSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\StateSelectors\StateSelectorFactory.h">
+      <Filter>Header Files\Agents\StateSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\AgentKDTree.h">
+      <Filter>Header Files\Agents\SpatialQueries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\KNearestQuery.h">
+      <Filter>Header Files\Agents\SpatialQueries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\ObstacleKDTree.h">
+      <Filter>Header Files\Agents\SpatialQueries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\ProximityQuery.h">
+      <Filter>Header Files\Agents\SpatialQueries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\SpatialQuery.h">
+      <Filter>Header Files\Agents\SpatialQueries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\SpatialQueryDatabase.h">
+      <Filter>Header Files\Agents\SpatialQueries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\SpatialQueryFactory.h">
+      <Filter>Header Files\Agents\SpatialQueries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\SpatialQueryKDTree.h">
+      <Filter>Header Files\Agents\SpatialQueries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\SpatialQueryNavMesh.h">
+      <Filter>Header Files\Agents\SpatialQueries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\SpatialQueries\SpatialQueryStructs.h">
+      <Filter>Header Files\Agents\SpatialQueries</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ProfileSelectors\ConstProfileSelector.h">
+      <Filter>Header Files\Agents\ProfileSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ProfileSelectors\profile_selector_random.h">
+      <Filter>Header Files\Agents\ProfileSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ProfileSelectors\profile_selector_weighted.h">
+      <Filter>Header Files\Agents\ProfileSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ProfileSelectors\ProfileSelector.h">
+      <Filter>Header Files\Agents\ProfileSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ProfileSelectors\ProfileSelectorDatabase.h">
+      <Filter>Header Files\Agents\ProfileSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ProfileSelectors\ProfileSelectorFactory.h">
+      <Filter>Header Files\Agents\ProfileSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\ExplicitObstacleSet.h">
+      <Filter>Header Files\Agents\ObstacleSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\ListObstacleSet.h">
+      <Filter>Header Files\Agents\ObstacleSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\NavMeshObstacleSet.h">
+      <Filter>Header Files\Agents\ObstacleSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\ObstacleSet.h">
+      <Filter>Header Files\Agents\ObstacleSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\ObstacleSetDatabase.h">
+      <Filter>Header Files\Agents\ObstacleSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\ObstacleSetFactory.h">
+      <Filter>Header Files\Agents\ObstacleSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Agents\ObstacleSets\ObstacleVertexList.h">
+      <Filter>Header Files\Agents\ObstacleSets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Actions\Action.h">
+      <Filter>Header Files\BFSM\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Actions\ActionDatabase.h">
+      <Filter>Header Files\BFSM\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Actions\ActionFactory.h">
+      <Filter>Header Files\BFSM\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Actions\ObstacleAction.h">
+      <Filter>Header Files\BFSM\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Actions\PropertyAction.h">
+      <Filter>Header Files\BFSM\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Actions\TeleportAction.h">
+      <Filter>Header Files\BFSM\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\Goal.h">
+      <Filter>Header Files\BFSM\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalAABB.h">
+      <Filter>Header Files\BFSM\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalCircle.h">
+      <Filter>Header Files\BFSM\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalDatabase.h">
+      <Filter>Header Files\BFSM\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalFactory.h">
+      <Filter>Header Files\BFSM\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalOBB.h">
+      <Filter>Header Files\BFSM\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Goals\GoalPoint.h">
+      <Filter>Header Files\BFSM\Goals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelector.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorDatabase.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorExplicit.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorFactory.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorFarthest.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorFarthestNM.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorIdentity.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorMirror.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorNearest.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorNearestNM.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorOffset.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorRandom.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorSet.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorShared.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\GoalSelectors\GoalSelectorWeighted.h">
+      <Filter>Header Files\BFSM\GoalSelectors</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityModifiers\VelModifier.h">
+      <Filter>Header Files\BFSM\VelModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityModifiers\VelModifierContext.h">
+      <Filter>Header Files\BFSM\VelModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityModifiers\VelModifierDatabase.h">
+      <Filter>Header Files\BFSM\VelModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityModifiers\VelModifierFactory.h">
+      <Filter>Header Files\BFSM\VelModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityModifiers\VelModifierScale.h">
+      <Filter>Header Files\BFSM\VelModifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelCompConst.h">
+      <Filter>Header Files\BFSM\VelComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelCompGoal.h">
+      <Filter>Header Files\BFSM\VelComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelCompNavMesh.h">
+      <Filter>Header Files\BFSM\VelComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelComponent.h">
+      <Filter>Header Files\BFSM\VelComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelComponentDatabase.h">
+      <Filter>Header Files\BFSM\VelComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelComponentFactory.h">
+      <Filter>Header Files\BFSM\VelComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelCompRoadMap.h">
+      <Filter>Header Files\BFSM\VelComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\VelocityComponents\VelCompVF.h">
+      <Filter>Header Files\BFSM\VelComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\CondAuto.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\CondBoolean.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\CondGoal.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\Condition.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\ConditionDatabase.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\ConditionFactory.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\CondSpace.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\CondTimer.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\Target.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\TargetDatabase.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\TargetFactory.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\TargetProb.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\TargetReturn.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Transitions\Transition.h">
+      <Filter>Header Files\BFSM\Transitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Tasks\NavMeshLocalizerTask.h">
+      <Filter>Header Files\BFSM\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Tasks\Task.h">
+      <Filter>Header Files\BFSM\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Tasks\TaskDatabase.h">
+      <Filter>Header Files\BFSM\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\BFSM\Tasks\TaskFactory.h">
+      <Filter>Header Files\BFSM\Tasks</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
