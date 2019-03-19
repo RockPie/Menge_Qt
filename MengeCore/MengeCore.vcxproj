@@ -486,6 +486,11 @@
     <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Runtime\SimulatorDBEntry.h" />
     <ClInclude Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\src\Menge\MengeCore\Runtime\Utils.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\tinyxml\tinyxml.vcxproj">
+      <Project>{9e4483c0-7bba-4776-851f-a42548e7f89e}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

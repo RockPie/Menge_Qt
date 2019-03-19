@@ -125,6 +125,14 @@
   <ItemGroup>
     <QtRcc Include="..\..\..\..\Geoffrey%27s XPS\Desktop\Menge_Qt\Menge_Qt\Menge_Qt.qrc" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MengeCore\MengeCore.vcxproj">
+      <Project>{090f9bcc-70d4-4542-b4c6-d5f8a72ff243}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\tinyxml\tinyxml.vcxproj">
+      <Project>{9e4483c0-7bba-4776-851f-a42548e7f89e}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
     <Import Project="$(QtMsBuild)\qt.targets" />
